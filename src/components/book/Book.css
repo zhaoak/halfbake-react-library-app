@@ -1,0 +1,21 @@
+.book-list {
+  list-style-type: none;
+  border: 2px solid #ccc;
+  padding: 0;
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  color: rgb(37, 37, 37);
+}
+
+.book-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px inset #ccc;
+  background-color: #ccc;
+  box-shadow: 1px 1px 3px 3px #ddd inset, -1px -1px 1px 1px #aaa inset;
+}
+
+.book h3 {
+  margin-top: 0;
+}
